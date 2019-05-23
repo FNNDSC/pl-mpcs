@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: mpcs
-Version: 1.0.6
+Version: 1.0.8
 Summary: This app simulates an MPC compute call and creates a z-score file.
 Home-page: https://github.com/FNNDSC/pl-mpcs
 Author: Rudolph Pienaar

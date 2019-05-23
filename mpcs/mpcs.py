@@ -118,7 +118,7 @@ class Mpcs(ChrisApp):
     TYPE                    = 'ds'
     DESCRIPTION             = 'This app simulates an MPC compute call.'
     DOCUMENTATION           = 'https://github.com/FNNDSC/pl-mpcs'
-    VERSION                 = '1.0.8'
+    VERSION                 = '1.0.10'
     ICON                    = '' # url of an icon image
     LICENSE                 = 'Opensource (MIT)'
     MAX_NUMBER_OF_WORKERS   = 1  # Override with integer value
@@ -143,22 +143,6 @@ class Mpcs(ChrisApp):
     # output directory.
     OUTPUT_META_DICT = {}
  
-    def manPage_show(self):
-        """
-        Print some quick help.
-        """
-        print(Gstr_synopsis)
-
-    def metaData_show(self):
-        """
-        Print the plugin meta data
-        """
-        l_metaData  = dir(self)
-        l_classVar  = [x for x in l_metaData if x.isupper() ]
-        for str_var in l_classVar:
-            str_val = getattr(self, str_var)
-            print("%20s: %s" % (str_var, str_val))
-
     def a2009sStructList_define(self):
         """
         The list of structures in the a2009s cortical parcellation
