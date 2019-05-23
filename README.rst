@@ -26,7 +26,7 @@ NOTE: The <inputDir> is largely ignored by this plugin.
 Synopsis
 --------
 
-.. code:: bash
+.. code:: html
 
     python mpcs.py                                                  \
         [--random] [--seed <seed>]                                  \
