@@ -34,7 +34,7 @@ Description: pl-mpcs
         Synopsis
         --------
         
-        .. code:: bash
+        .. code:: html
         
             python mpcs.py                                                  \
                 [--random] [--seed <seed>]                                  \
