@@ -6,7 +6,7 @@ with open(path.join(path.dirname(path.abspath(__file__)), 'README.rst')) as f:
 
 setup(
       name             =   'mpcs',
-      version          =   '1.0.11',
+      version          =   '1.0.12',
       description      =   'This app simulates an MPC compute call and creates a z-score file.', 
       long_description =   readme,
       author           =   'Rudolph Pienaar',
